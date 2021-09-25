@@ -1,0 +1,7 @@
+# comments
+colorama
+pytest
+pytest-mock
+pytest-clarity
+pytest-cov
+pytest-freezegun
