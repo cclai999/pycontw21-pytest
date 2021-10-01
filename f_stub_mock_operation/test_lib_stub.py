@@ -21,4 +21,3 @@ def test_room601_operations_true(operation_data: List[lib.Operation],
     room = '601'
     operations = lib.all_operations(date(2021, 7, 13), room)
     assert all(op.room == room for op in operations)
-

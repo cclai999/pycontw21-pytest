@@ -4,7 +4,7 @@ from datetime import datetime, date
 
 class Operation:
     def __init__(self, op_id: str, patient_id: str,
-                 room: int, op_time: datetime = None):
+                 room: str, op_time: datetime = None):
         self.op_id = op_id
         self.patient_id = patient_id
         self.room = room
